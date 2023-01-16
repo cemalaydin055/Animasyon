@@ -34,3 +34,130 @@ body{
     90% {left:160px;}
     100% {left:180px;}  
 }
+
+
+#balon{
+    position: absolute;
+    top: 160;
+    left:150;
+    width:300px;
+    height:300px;
+    z-index: 2; 
+    animation-name: balonanimasyon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes balonanimasyon
+{
+    10%   {top:180px;}
+    20%  { top:160px;}
+    30%  {top:140px;}
+    40%  { top:120px;}
+    50% { top:100px;}
+    60% {top:80px;}
+    70% {top:60px;}
+    80% {top:40;}
+    90% {top:20px;}
+    100% {top:0px;}  
+}
+
+
+#tekerim1{
+    position: absolute;
+    top: 125;
+    left:-100;
+    z-index: 1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: tekeranimasyonu1;
+    
+   
+ 
+}
+
+
+.ilerisol{
+    position: absolute;
+    left:0;
+    top:0;
+    animation-name: sileri;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sileri 
+
+{
+    10%   {left:0;}
+    20%  { left:20px;}
+    30%  {left:40px;}
+    40%  { left:60px;}
+    50% { left:80px;}
+    60% {left:100px;}
+    70% {left:120px;}
+    80% {left:140;}
+    90% {left:160px;}
+    100% {left:180px;}  
+}
+
+
+#tekerim2{
+    position: absolute;
+    top: 125;
+    left:100;
+    z-index: 1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: tekeranimasyonu1;    
+}
+
+
+
+@keyframes tekeranimasyonu1 {
+
+    0%{transform: rotate(0deg);}
+ 
+   
+    
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes tekeranimasyonu2 {
+
+    0%{transform: rotate(0deg);}
+ 
+    
+    100%{transform: rotate(360deg);}
+}
+
+#yol{
+    position: absolute;
+    top: 190;
+    left:-400;
+    z-index: inherit;
+    animation-name: yol;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes yol
+{
+    10%   {left:180px;}
+    20%  { left:160px;}
+    30%  {left:140px;}
+    40%  { left:120px;}
+    50% { left:100px;}
+    60% {left:80px;}
+    70% {left:60px;}
+    80% {left:40;}
+    90% {left:20px;}
+    100% {left:0px;}  
+}
+
+
+
