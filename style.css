@@ -8,3 +8,29 @@ body{
    
    
 }
+
+#bisiklet
+{
+    position: absolute;
+    left:0;
+    top:20;
+    z-index: 2;
+    animation-name: bisikle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes bisikle 
+
+{
+    10%   {left:0;}
+    20%  { left:20px;}
+    30%  {left:40px;}
+    40%  { left:60px;}
+    50% { left:80px;}
+    60% {left:100px;}
+    70% {left:120px;}
+    80% {left:140;}
+    90% {left:160px;}
+    100% {left:180px;}  
+}
